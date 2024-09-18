@@ -9,7 +9,7 @@
 
 ---
 
-## 1. Background and Overview
+# 1. Background and Overview
 Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
 
 Insights and recommendations are provided on the following key areas: 
@@ -24,7 +24,7 @@ Example:
 
 ---
 
-## 2. Data Structure Overview
+# 2. Data Structure Overview
 The Medicare dataset contains the columns listed below, with a total row count of 377,744 after the filtering conditions have been applied and the datasets from 2017 to 2022 have been joined
 - `Rndrng_NPI`: National Provider Identifier.
 - `Rndrng_Prvdr_Last_Org_Name`: Last Name/Organization Name of the Provider.
@@ -155,7 +155,7 @@ You may also include any initial data checks or processing steps performed (e.g.
 
 ---
 
-## 3. Executive Summary
+# 3. Executive Summary
 Provide a summary of the key findings, trends, and results from the analysis.
 
 Example:
@@ -168,7 +168,7 @@ While revenue and order volume declined in 2022, the **Average Order Value** sho
 
 ---
 
-## 4. Insights Deep Dive
+# 4. Insights Deep Dive
 Dive into the key findings from the analysis and explain the underlying data insights.
 
 ### Example Insights:
@@ -185,7 +185,7 @@ Dive into the key findings from the analysis and explain the underlying data ins
 
 ---
 
-## 5. Recommendations
+# 5. Recommendations
 Based on the insights, provide actionable recommendations for the business or client.
 
 ### Example Recommendations:
