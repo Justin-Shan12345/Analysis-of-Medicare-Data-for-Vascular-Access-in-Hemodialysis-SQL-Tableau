@@ -13,11 +13,11 @@
 Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
 
 Insights and recommendations are provided on the following key areas: 
-- Claim trend analysis
+- Overall hemodialysis market analysis
 - Regional claim comparison
-- Vascular Access for Hemodialysis trend analysis
-- % coverage analysis
+- Hemodialysis Vascular Access Claims Breakdown: Analysis of claims based on types of vascular access for hemodialysis (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft and Central Venous Catheter (CVC)) 
 - Provider Type Analysis 
+
 Example:
 > This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
 ![image](https://github.com/user-attachments/assets/a6c14a3b-b126-4b2e-8ef9-afe7de3498e0)
