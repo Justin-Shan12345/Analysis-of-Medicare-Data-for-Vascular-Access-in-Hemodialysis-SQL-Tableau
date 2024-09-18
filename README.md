@@ -1,0 +1,208 @@
+# Project Name
+
+## Table of Contents
+1. [Background and Overview](#background-and-overview)
+2. [Data Structure Overview](#data-structure-overview)
+3. [Executive Summary](#executive-summary)
+4. [Insights Deep Dive](#insights-deep-dive)
+5. [Recommendations](#recommendations)
+
+---
+
+## 1. Background and Overview
+Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
+
+Insights and recommendations are provided on the following key areas: 
+- Claim trend analysis
+- Regional claim comparison
+- Vascular Access for Hemodialysis trend analysis
+- % coverage analysis
+- Provider Type Analysis 
+Example:
+> This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
+![image](https://github.com/user-attachments/assets/a6c14a3b-b126-4b2e-8ef9-afe7de3498e0)
+
+---
+
+## 2. Data Structure Overview
+The Medicare dataset contains the columns listed below, with a total row count of 377,744 after the filtering conditions have been applied and the datasets from 2017 to 2022 have been joined
+- `Rndrng_NPI`: National Provider Identifier.
+- `Rndrng_Prvdr_Last_Org_Name`: Last Name/Organization Name of the Provider.
+- `Rndrng_Prvdr_First_Name`: First Name of the Provider.
+- `Rndrng_Prvdr_MI`: Middle Initial of the Provider.
+- `Rndrng_Prvdr_Crdntls`: Credentials of the Provider.
+- `Rndrng_Prvdr_Gndr`: Gender of the Provider.
+- `Rndrng_Prvdr_Ent_Cd`: Entity Type of the Provider.
+- `Rndrng_Prvdr_St1`: Street Address 1 of the Provider.
+- `Rndrng_Prvdr_St2`: Street Address 2 of the Provider.
+- `Rndrng_Prvdr_City`: City of the Provider.
+- `Rndrng_Prvdr_State_Abrvtn`: State Abbreviation of the Provider.
+- `Rndrng_Prvdr_State_FIPS`: State FIPS Code of the Provider.
+- `Rndrng_Prvdr_Zip5`: Zip Code of the Provider.
+- `Rndrng_Prvdr_RUCA`: RUCA Code of the Provider.
+- `Rndrng_Prvdr_RUCA_Desc`: RUCA Description.
+- `Rndrng_Prvdr_Cntry`: Country Code of the Provider.
+- `Rndrng_Prvdr_Type`: Provider Type of the Provider.
+- `Rndrng_Prvdr_Mdcr_Prtcptg_Ind`: Medicare Participation Indicator.
+- `HCPCS_Cd`: HCPCS Code.
+- `HCPCS_Desc`: HCPCS Description.
+- `HCPCS_Drug_Ind`: HCPCS Drug Indicator.
+- `Place_Of_Srvc`: Place of Service.
+- `Tot_Benes`: Number of Medicare Beneficiaries.
+- `Tot_Srvcs`: Number of Services.
+- `Tot_Bene_Day_Srvcs`: Number of Distinct Medicare Beneficiary/Per Day Services.
+- `Avg_Sbmtd_Chrg`: Average Submitted Charge Amount.
+- `Avg_Mdcr_Alowd_Amt`: Average Medicare Allowed Amount.
+- `Avg_Mdcr_Pymt_Amt`: Average Medicare Payment Amount.
+- `Avg_Mdcr_Stdzd_Amt`: Average Medicare Standardized Payment Amount.
+
+Code Snippet 
+```sql
+CREATE TABLE medicare_data_2017_2022_revised AS
+SELECT *
+FROM medicare_data_2017 t2017
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+)
+UNION ALL
+SELECT *
+FROM medicare_data_2018 t2018
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+)
+UNION ALL
+SELECT *
+FROM medicare_data_2019 t2019
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+)
+UNION ALL
+SELECT *
+FROM medicare_data_2020 t2020
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+)
+UNION ALL
+SELECT *
+FROM medicare_data_2021 t2021
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+)
+UNION ALL
+SELECT *
+FROM medicare_data_2022 t2022
+WHERE hcpcs_cd IN (
+  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
+  'C1769', 'G0365', 'C1874', '36830',
+  'C1884', 'C1753', '36818', '36821',
+  '37799', 'C2623', '93970', 'G0392', 'G0269',
+  '90935', '90937', '90945', '90947', '90999',
+  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
+  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
+  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
+  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
+  '36833', '36834', '36831', '36901', '36902', '36558'
+);
+
+```
+You may also include any initial data checks or processing steps performed (e.g., data cleaning, removing duplicates, handling null values).
+![image](https://github.com/user-attachments/assets/8a341b2e-a0b0-4343-99b5-72d19c0dcbcd)
+
+---
+
+## 3. Executive Summary
+Provide a summary of the key findings, trends, and results from the analysis.
+
+Example:
+- **2022 Revenue**: $5M (YoY -45.7%)
+- **2022 Order Volume**: 21,565 (YoY -39.9%)
+- **2022 Average Order Value (AOV)**: $229.91 (YoY -9.7%)
+
+While revenue and order volume declined in 2022, the **Average Order Value** showed some resilience due to an increase in high-cost product sales.
+![image](https://github.com/user-attachments/assets/f737d2e0-bd50-4a82-a388-156cff396ce8)
+
+---
+
+## 4. Insights Deep Dive
+Dive into the key findings from the analysis and explain the underlying data insights.
+
+### Example Insights:
+
+- **Key Insight 1: Decline in Revenue**
+    - The company’s revenue dropped by **45.7%** year-over-year in 2022.
+    - Possible reason: Decrease in customer loyalty and order volume by **39.9%**.
+    
+- **Key Insight 2: High-Cost Products Resilience**
+    - Despite the overall revenue drop, high-cost laptop orders saw a **10%** year-over-year increase in September 2022.
+    - The increased sales of premium laptops compensated for losses in other product categories.
+![image](https://github.com/user-attachments/assets/e7e5eb21-9c41-4fc5-9dd6-04f025239d3b)
+![image](https://github.com/user-attachments/assets/f065488f-27be-4578-8e7e-2d1424496f96)
+
+---
+
+## 5. Recommendations
+Based on the insights, provide actionable recommendations for the business or client.
+
+### Example Recommendations:
+
+1. **Diversify the Product Portfolio**: 
+   - With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is critical.
+   - **Action**: Introduce new product lines, particularly in the higher-cost segments like premium laptops and accessories.
+
+2. **Target Loyalty Program Members for Upsell**: 
+   - Focus marketing efforts on converting non-members into loyalty members and upsell current loyalty members with personalized offers.
+   - **Action**: Utilize personalized email campaigns and promotions based on loyalty program data.
+
+3. **Re-evaluate Marketing for Underperforming Products**:
+   - Products like the Bose SoundSport Headphones account for less than 1% of annual revenue and may not be worth continued focus.
+   - **Action**: Consider discontinuing or repackaging underperforming products while focusing more on top-performing items.
+![image](https://github.com/user-attachments/assets/334c4f84-2e15-420f-b7de-5d1726226e79)
+
+---
+
+This single-page README format keeps all the relevant project sections organized and easy to follow, providing an end-to-end report within the same document.
