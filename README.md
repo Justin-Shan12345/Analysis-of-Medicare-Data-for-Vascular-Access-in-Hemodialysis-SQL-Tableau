@@ -27,11 +27,11 @@ You can find the Tableau Dashboard here.
 ---
 # Executive Summary
 ## Overview of Findings 
-After a marginal growth from 2017 to 2019 and peaking in 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access-related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to the impact of COVID-19, other factors such as higher kidney transplant rates, and increased uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
+Following marginal growth between 2017 and 2019, peaking in 2019 at $1.24 billion, total Medicare payments for hemodialysis vascular access-related claims have steadily declined, with negative year-over-year growth from 2020 to 2022. While this drop can largely be attributed to the impact of COVID-19, other contributing factors include higher kidney transplant rates, the growing adoption of at-home dialysis (by the end of 2020, 13.7% of all dialysis patients performed dialysis at home, marking a 50% increase between 2010 and 2020), and improvements in preventative care.
 
-Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/), thus meaning that this report captures a large portion of the cost related to vascular access in hemodialysis in the United states. 
+Medicare covers healthcare for 80% of patients in the U.S. with end-stage kidney disease (ESKD) (source), meaning this report reflects a significant portion of the costs associated with vascular access for hemodialysis in the U.S.
 
-Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
+Below is the overview page from the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard can be accessed here.
 
 ![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
 
