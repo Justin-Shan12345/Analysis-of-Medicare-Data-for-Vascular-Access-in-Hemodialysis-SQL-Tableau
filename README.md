@@ -10,7 +10,7 @@
 ---
 
 # Background and Overview
-This report aims to analyze the hemodialysis vascular access market using Medicare claim data. The analysis utilized Medicare Part B data, which includes information on the utilization, payments, and submitted charges for services and procedures provided by healthcare professionals (HCPs). The report seeks to uncover market trends in this therapeutic domain and assess the commercial environment from the perspective of Humacyte, a biotech company specializing in bioengineered, off-the-shelf vascular grafts designed to provide durable and infection-resistant vascular access for patients requiring hemodialysis.
+This report aims to analyze the hemodialysis vascular access market using Medicare claim data. The analysis utilized Medicare Part B data from 2017 to 2022, which includes information on the utilization, payments, and submitted charges for services and procedures provided by healthcare professionals (HCPs). The report seeks to uncover market trends in this therapeutic domain and assess the commercial environment from the perspective of Humacyte, a biotech company specializing in bioengineered, off-the-shelf vascular grafts designed to provide durable and infection-resistant vascular access for patients requiring hemodialysis.
 
 Insights and recommendations are provided in the following key areas:
 
@@ -27,32 +27,39 @@ You can find the Tableau Dashboard here.
 ---
 # Executive Summary
 ## Overview of Findings 
-After a marginal growth from 2017 to 2019 and peaking at 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access-related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to the impact of COVID-19, other factors such as higher kidney transplant rates, increased uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
+After a marginal growth from 2017 to 2019 and peaking in 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access-related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to the impact of COVID-19, other factors such as higher kidney transplant rates, and increased uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
 
-Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/)
+Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/), thus this report analyzes 
 
-Below is the overview page form the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
+Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
 
 ![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
 
 Top line Metrics for Hemodialysis Vascular Access Related Claims:
--**2022 Total Submitted Claim**: $3.1B (YoY -12.70%)
+- **2022 Total Submitted Claim**: $3.1B (YoY -12.70%)
 - **2022 Total Medicare Payment**: $898.4M (YoY -16.92%)
 - **2022 Total Patient Serviced**: 3.905M
 - **2022 Average Medicare Coverage Percentage**: 28.64%
--  
-
 
 ---
 
 # Insights Deep Dive
 
-Example:
-> This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
-> 
-### Overall Hemodialysis Market Analysis
-![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
-![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
+### Overall Hemodialysis Market Analysis:
+> In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M. This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. Both 
+
+> Despite the downward trend, the percentage of Medicare coverage has remained steady from 2017 to 2022, with an average of 28.26% coverage throughout the 6-year period. 
+
+### Regional Claim Comparison
+> The analysis focuses on the contiguous United States (excluding Hawaii and Alaska) and separates the country into 3 regions (West, Central, and East) to identify regional differences.
+
+> In 2022, all three regions experienced the most significant decline in total Medicare payment growth (Year-Over-Year: West -11.34%, Central -19.25%, East -17.73%). Before 2020, all regions showed marginal but positive growth, highlighting the impact of COVID-19 on the accessibility of care for hemodialysis patients. The decline in growth can also be attributed to factors such as improvement in kidney transplants, at-home dialysis and preventative care.
+
+> Amongst the three regions investigated, West has shown 
+
+> ![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
+
+
 ### Regional Claim Comparison
 ### Hemodialysis Vascular Access Claims Breakdown
 
