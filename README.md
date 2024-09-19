@@ -2,10 +2,10 @@
 
 ## Table of Contents
 1. [Background and Overview](#background-and-overview)
-2. [Data Structure Overview](#data-structure-overview)
-3. [Executive Summary](#executive-summary)
-4. [Insights Deep Dive](#insights-deep-dive)
-5. [Recommendations](#recommendations)
+2. [Executive Summary](#executive-summary)
+3. [Insights Deep Dive](#insights-deep-dive)
+4. [Recommendations](#recommendations)
+5. [Data Structure Overview](#data-structure-overview)
 
 ---
 
@@ -26,7 +26,73 @@ Example:
 You can find the source to the datesets here.
 You can find the Tableau Dashboard here.
 
+---
+# Executive Summary
+## Overview of Findings 
+After a marginal growth from 2017 to 2019 and peaking at 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to impact of COVID, other factors such as higher kidney transplant rate, increase uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
 
+Below is the overview page form the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
+
+![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
+Example:
+- **2022 Revenue**: $5M (YoY -45.7%)
+- **2022 Order Volume**: 21,565 (YoY -39.9%)
+- **2022 Average Order Value (AOV)**: $229.91 (YoY -9.7%)
+
+While revenue and order volume declined in 2022, the **Average Order Value** showed some resilience due to an increase in high-cost product sales.
+![image](https://github.com/user-attachments/assets/f737d2e0-bd50-4a82-a388-156cff396ce8)
+
+---
+
+# Insights Deep Dive
+
+### Overall Hemodialysis Market Analysis
+![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
+![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
+### Regional Claim Comparison
+### Hemodialysis Vascular Access Claims Breakdown
+### Provider Type Analysis
+
+### Example Insights:
+Overall Trend analysis
+
+
+
+
+Regional analsis
+![image](https://github.com/user-attachments/assets/fe79df85-862a-44a4-a5a8-19b5c8d97f38)
+![image](https://github.com/user-attachments/assets/2181dd81-ab03-42b5-8399-79394dc55e35)
+
+
+- **Key Insight 1: Decline in Revenue**
+    - The company’s revenue dropped by **45.7%** year-over-year in 2022.
+    - Possible reason: Decrease in customer loyalty and order volume by **39.9%**.
+    
+- **Key Insight 2: High-Cost Products Resilience**
+    - Despite the overall revenue drop, high-cost laptop orders saw a **10%** year-over-year increase in September 2022.
+    - The increased sales of premium laptops compensated for losses in other product categories.
+![image](https://github.com/user-attachments/assets/e7e5eb21-9c41-4fc5-9dd6-04f025239d3b)
+![image](https://github.com/user-attachments/assets/f065488f-27be-4578-8e7e-2d1424496f96)
+
+---
+
+# Recommendations
+Based on the insights, provide actionable recommendations for the business or client.
+
+### Example Recommendations:
+
+1. **Diversify the Product Portfolio**: 
+   - With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is critical.
+   - **Action**: Introduce new product lines, particularly in the higher-cost segments like premium laptops and accessories.
+
+2. **Target Loyalty Program Members for Upsell**: 
+   - Focus marketing efforts on converting non-members into loyalty members and upsell current loyalty members with personalized offers.
+   - **Action**: Utilize personalized email campaigns and promotions based on loyalty program data.
+
+3. **Re-evaluate Marketing for Underperforming Products**:
+   - Products like the Bose SoundSport Headphones account for less than 1% of annual revenue and may not be worth continued focus.
+   - **Action**: Consider discontinuing or repackaging underperforming products while focusing more on top-performing items.
+![image](https://github.com/user-attachments/assets/334c4f84-2e15-420f-b7de-5d1726226e79)
 ---
 
 # Data Structure Overview
@@ -67,96 +133,78 @@ CREATE TABLE medicare_data_2017_2022_revised AS
 SELECT *
 FROM medicare_data_2017 t2017
 WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
+  '36555', '36556', '36557', '36558', '36560', '36561', '36563', '36565',
+  '36566', '36568', '36569', '36570', '36571', '36572', '36573', '36575',
+  '36576', '36578', '36580', '36581', '36582', '36583', '36584', '36585',
+  '36589', '36590', '36591', '36592', '36593', '36595', '36596', '36597', '36598',
+  '36800', '36810', '36815', '36818', '36819', '36820', '36821', '36825', '36830',
+  '36831', '36832', '36833', '36835', '36836', '36837', '36838', '36860', '36861',
+  '36901', '36902', '36903', '36904', '36905', '36906', '36907', '36908', '36909',
+  '90935', '90937', '90940', '90945', '90947', '90951', '90952', '90953', '90954',
+  '90955', '90956', '90957', '90958', '90959', '90960', '90961', '90962', '90963',
+  '90964', '90965', '90966', '90967', '90968', '90969', '90970'
 )
 UNION ALL
 SELECT *
 FROM medicare_data_2018 t2018
-WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
-)
+WHERE hcpcs_cd IN (/* same hcpcs_cd list as above */)
 UNION ALL
 SELECT *
 FROM medicare_data_2019 t2019
-WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
-)
+WHERE hcpcs_cd IN (/* same hcpcs_cd list as above */)
 UNION ALL
 SELECT *
 FROM medicare_data_2020 t2020
-WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
-)
+WHERE hcpcs_cd IN (/* same hcpcs_cd list as above */)
 UNION ALL
 SELECT *
 FROM medicare_data_2021 t2021
-WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
-)
+WHERE hcpcs_cd IN (/* same hcpcs_cd list as above */)
 UNION ALL
 SELECT *
 FROM medicare_data_2022 t2022
-WHERE hcpcs_cd IN (
-  'X2R50WA', 'X2R60WA', 'X2R70WA', 'X2R80WA',
-  'C1769', 'G0365', 'C1874', '36830',
-  'C1884', 'C1753', '36818', '36821',
-  '37799', 'C2623', '93970', 'G0392', 'G0269',
-  '90935', '90937', '90945', '90947', '90999',
-  'G0257', 'G0308', 'G0309', 'G0310', 'G0311', 'G0312', 'G0313',
-  'G0314', 'G0315', 'G0316', 'G0317', 'G0318', 'G0319', 'G0320', 
-  'G0321', 'G0322', 'G0323', 'G0324', 'G0325', 'G0326', 'G0327', 
-  '36800', '36810', '36819', '36820', '36821', '36825', '36832', 
-  '36833', '36834', '36831', '36901', '36902', '36558'
-);
+WHERE hcpcs_cd IN (/* same hcpcs_cd list as above */);
+
 
 ```
 You may also include any initial data checks or processing steps performed (e.g., data cleaning, removing duplicates, handling null values).
 ![image](https://github.com/user-attachments/assets/8a341b2e-a0b0-4343-99b5-72d19c0dcbcd)
+
+### HCPCS Codes for Vascular Access for Hemodialysis Report
+
+**CVC Insertion**
+- 36556, 36558, 36561, 36563, 36565, 36566, 36569, 36571, 36573
+- 90935, 90937, 90945, 90947, 90999
+
+**CVC Repair or Replacement**
+- 36575, 36580, 36581, 36582, 36583, 36584, 36585
+
+**CVC Removal**
+- 36589, 36590
+
+**CVC Others**
+- 36591, 36592, 36593, 36595, 36596, 36597, 36598
+
+**Hemodialysis Cannulation**
+- 36800, 36810, 36815
+
+**AVF Creation**
+- 36818, 36819, 36820, 36821, 36825
+
+**AVG Creation**
+- 36830
+
+**AV Revision**
+- 36831, 36832, 36833, 36838
+- 36902, 36903, 36904, 36905, 36906, 36907, 36908, 36909
+
+**Dialysis Circuit Assessment (AV Only)**
+- 36901
+
+**ESRD Services**
+- 90960, 90961, 90962, 90965, 90966, 90970
+
+
 
 ---
 
