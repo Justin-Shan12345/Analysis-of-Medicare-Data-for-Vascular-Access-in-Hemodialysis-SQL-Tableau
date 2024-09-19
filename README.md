@@ -46,7 +46,7 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 # Insights Deep Dive
 
 ### Overall Hemodialysis Market Analysis:
-> In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M. This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. Both 
+> In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M (a single patient can be accounted multiple times, this merely reflects the number of patient engagement). This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. 
 
 > Despite the downward trend, the percentage of Medicare coverage has remained steady from 2017 to 2022, with an average of 28.26% coverage throughout the 6-year period. 
 
@@ -57,24 +57,16 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 > Amongst the three regions investigated, West has been shown to be the least impacted by the decline, going from $194.75M in 2017 to $168.31M in 2022 while the other two regions saw much significant decline in Medicare payment ($250.83M to $176.19M in the Central region, $780.46M to $554.90M in the East Region). 
 
-> ![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
+> ![image](https://github.com/user-attachments/assets/5a53d637-46c7-4326-9a8f-ea5dff1c13d2)
+> ![image](https://github.com/user-attachments/assets/5b0f3bc7-3686-41ef-a39a-adbeecbc1faf)
+> ![image](https://github.com/user-attachments/assets/dec0fff3-d5df-48ab-948a-b0353158eb40)
 
-
-### Regional Claim Comparison
 ### Hemodialysis Vascular Access Claims Breakdown
 
 CVC is not exclsuive for hemodialysis 
 ### Provider Type Analysis
 
-### Example Insights:
-Overall Trend analysis
 
-
-
-
-Regional analsis
-![image](https://github.com/user-attachments/assets/fe79df85-862a-44a4-a5a8-19b5c8d97f38)
-![image](https://github.com/user-attachments/assets/2181dd81-ab03-42b5-8399-79394dc55e35)
 
 
 - **Key Insight 1: Decline in Revenue**
