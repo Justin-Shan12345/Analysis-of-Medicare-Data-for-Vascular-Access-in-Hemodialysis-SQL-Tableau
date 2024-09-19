@@ -10,17 +10,22 @@
 ---
 
 # Background and Overview
-Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
+This report aims to analyze the hemodialysis vascular access market using Medicare claim data. The analysis utilized Medicare Part B data, which includes information on the utilization, payments, and submitted charges for services and procedures provided by healthcare professionals (HCPs). The report seeks to uncover market trends in this therapeutic domain and assess the commercial environment from the perspective of Humacyte, a biotech company specializing in bioengineered, off-the-shelf vascular grafts designed to provide durable and infection-resistant vascular access for patients requiring hemodialysis.
 
-Insights and recommendations are provided on the following key areas: 
-- Overall Hemodialysis Market Analysis: A broad review of hemodialysis claims trends, including total claims, total patients serviced, and market shifts over time, focusing on key metrics like claim volume and coverage percentage. 
-- Regional Claim Comparison: A comparative analysis of hemodialysis claims across regions, highlighting geographic differences in YOY total claim growth, changes in coverage percentage, and service usage patterns.
-- Hemodialysis Vascular Access Claims Breakdown: Analysis of claims based on the main three types of vascular access for hemodialysis currently being practiced (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft and Central Venous Catheter (CVC)).
-- Provider Type Analysis: A review of claims by provider types (e.g., nephrologists, nurse practitioners), focusing on service volumes, reimbursement variations, and geographic distribution.
+Insights and recommendations are provided in the following key areas:
+
+- Overall Hemodialysis Market Analysis: A comprehensive review of hemodialysis claim trends, including total claims, the number of patients served, and market shifts over time, with a focus on key metrics like claim volume and coverage percentage.
+- Regional Claim Comparison: A comparative analysis of hemodialysis claims across regions, highlighting geographic differences in year-over-year (YOY) total claim growth, changes in coverage percentage, and patterns of service usage.
+- Hemodialysis Vascular Access Claims Breakdown: An analysis of claims based on the three primary types of vascular access for hemodialysis currently in practice (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft, and Central Venous Catheter (CVC)).
+- Provider Type Analysis: An evaluation of claims by provider types (e.g., nephrologists, nurse practitioners), addressing questions such as which providers are delivering these services, the market size of each specialty, and identifying potential opportunities for commercial initiatives.
 
 Example:
 > This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
 ![image](https://github.com/user-attachments/assets/a6c14a3b-b126-4b2e-8ef9-afe7de3498e0)
+
+You can find the source to the datesets here.
+You can find the Tableau Dashboard here.
+
 
 ---
 
@@ -156,8 +161,12 @@ You may also include any initial data checks or processing steps performed (e.g.
 ---
 
 # Executive Summary
-Provide a summary of the key findings, trends, and results from the analysis.
+## Overview of Findings 
+After a marginal growth from 2017 to 2019 and peaking at 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to impact of COVID, other factors such as higher kidney transplant rate, increase uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
 
+Below is the overview page form the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
+
+![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
 Example:
 - **2022 Revenue**: $5M (YoY -45.7%)
 - **2022 Order Volume**: 21,565 (YoY -39.9%)
