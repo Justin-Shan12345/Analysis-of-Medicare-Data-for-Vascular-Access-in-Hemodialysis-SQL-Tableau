@@ -178,12 +178,17 @@ While revenue and order volume declined in 2022, the **Average Order Value** sho
 ---
 
 # Insights Deep Dive
-Dive into the key findings from the analysis and explain the underlying data insights.
+
+### Overall Hemodialysis Market Analysis
+![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
+![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
+### Regional Claim Comparison
+### Hemodialysis Vascular Access Claims Breakdown
+### Provider Type Analysis
 
 ### Example Insights:
 Overall Trend analysis
-![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
-![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
+
 
 
 
