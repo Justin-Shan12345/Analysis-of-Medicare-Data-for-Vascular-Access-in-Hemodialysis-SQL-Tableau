@@ -29,7 +29,7 @@ You can find the Tableau Dashboard here.
 ## Overview of Findings 
 After a marginal growth from 2017 to 2019 and peaking in 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access-related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to the impact of COVID-19, other factors such as higher kidney transplant rates, and increased uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
 
-Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/), thus this report analyzes 
+Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/), thus meaning that this report captures a large portion of the cost related to vascular access in hemodialysis in the United states. 
 
 Below is the overview page from the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
 
@@ -55,7 +55,7 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 > In 2022, all three regions experienced the most significant decline in total Medicare payment growth (Year-Over-Year: West -11.34%, Central -19.25%, East -17.73%). Before 2020, all regions showed marginal but positive growth, highlighting the impact of COVID-19 on the accessibility of care for hemodialysis patients. The decline in growth can also be attributed to factors such as improvement in kidney transplants, at-home dialysis and preventative care.
 
-> Amongst the three regions investigated, West has shown 
+> Amongst the three regions investigated, West has been shown to be the least impacted by the decline, going from $194.75M in 2017 to $168.31M in 2022 while the other two regions saw much significant decline in Medicare payment ($250.83M to $176.19M in the Central region, $780.46M to $554.90M in the East Region). 
 
 > ![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
 
