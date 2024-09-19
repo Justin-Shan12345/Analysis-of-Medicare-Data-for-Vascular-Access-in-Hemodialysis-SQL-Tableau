@@ -19,38 +19,44 @@ Insights and recommendations are provided in the following key areas:
 - Hemodialysis Vascular Access Claims Breakdown: An analysis of claims based on the three primary types of vascular access for hemodialysis currently in practice (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft, and Central Venous Catheter (CVC)).
 - Provider Type Analysis: An evaluation of claims by provider types (e.g., nephrologists, nurse practitioners), addressing questions such as which providers are delivering these services, the market size of each specialty, and identifying potential opportunities for commercial initiatives.
 
-Example:
-> This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
-![image](https://github.com/user-attachments/assets/a6c14a3b-b126-4b2e-8ef9-afe7de3498e0)
 
 You can find the source to the datesets here.
+
 You can find the Tableau Dashboard here.
 
 ---
 # Executive Summary
 ## Overview of Findings 
-After a marginal growth from 2017 to 2019 and peaking at 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to impact of COVID, other factors such as higher kidney transplant rate, increase uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
+After a marginal growth from 2017 to 2019 and peaking at 2019 at 1.24 billion, the total claim (payment made by Medicare) for hemodialysis vascular access-related claims has fallen steadily since, showing negative YOY growth from 2020 to 2022. While this decline can be attributed to the impact of COVID-19, other factors such as higher kidney transplant rates, increased uptake of at-home dialysis (At the end of 2020, 13.7% of all patients undergoing dialysis performed dialysis at home. The percentage of patients performing home dialysis increased approximately 50% between 2010 and 2020) and improvements in preventative care all contributed to its decline. 
+
+Medicare finances health care for 80% of US patients with end-stage kidney disease (ESKD) (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7139269/)
 
 Below is the overview page form the Tableau dashboard and more examples are included throughout the report. The entire interactive dashboard can be accessed here. 
 
 ![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
-Example:
-- **2022 Revenue**: $5M (YoY -45.7%)
-- **2022 Order Volume**: 21,565 (YoY -39.9%)
-- **2022 Average Order Value (AOV)**: $229.91 (YoY -9.7%)
 
-While revenue and order volume declined in 2022, the **Average Order Value** showed some resilience due to an increase in high-cost product sales.
-![image](https://github.com/user-attachments/assets/f737d2e0-bd50-4a82-a388-156cff396ce8)
+Top line Metrics for Hemodialysis Vascular Access Related Claims:
+-**2022 Total Submitted Claim**: $3.1B (YoY -12.70%)
+- **2022 Total Medicare Payment**: $898.4M (YoY -16.92%)
+- **2022 Total Patient Serviced**: 3.905M
+- **2022 Average Medicare Coverage Percentage**: 28.64%
+-  
+
 
 ---
 
 # Insights Deep Dive
 
+Example:
+> This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
+> 
 ### Overall Hemodialysis Market Analysis
 ![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
 ![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
 ### Regional Claim Comparison
 ### Hemodialysis Vascular Access Claims Breakdown
+
+CVC is not exclsuive for hemodialysis 
 ### Provider Type Analysis
 
 ### Example Insights:
