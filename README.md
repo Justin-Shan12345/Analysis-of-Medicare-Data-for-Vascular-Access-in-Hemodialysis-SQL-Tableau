@@ -13,10 +13,10 @@
 Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
 
 Insights and recommendations are provided on the following key areas: 
-- Overall Hemodialysis Market Analysis:
-- Regional Claim Comparison:
-- Hemodialysis Vascular Access Claims Breakdown: Analysis of claims based on types of vascular access for hemodialysis (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft and Central Venous Catheter (CVC)) 
-- Provider Type Analysis: 
+- Overall Hemodialysis Market Analysis: A broad review of hemodialysis claims trends, including total claims, total patients serviced, and market shifts over time, focusing on key metrics like claim volume and coverage percentage. 
+- Regional Claim Comparison: A comparative analysis of hemodialysis claims across regions, highlighting geographic differences in YOY total claim growth, changes in coverage percentage, and service usage patterns.
+- Hemodialysis Vascular Access Claims Breakdown: Analysis of claims based on the main three types of vascular access for hemodialysis currently being practiced (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft and Central Venous Catheter (CVC)).
+- Provider Type Analysis: A review of claims by provider types (e.g., nephrologists, nurse practitioners), focusing on service volumes, reimbursement variations, and geographic distribution.
 
 Example:
 > This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
