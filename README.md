@@ -13,10 +13,10 @@
 Provide a brief overview of the project, the client (if applicable), and the problem you’re addressing.
 
 Insights and recommendations are provided on the following key areas: 
-- Overall hemodialysis market analysis
-- Regional claim comparison
+- Overall Hemodialysis Market Analysis:
+- Regional Claim Comparison:
 - Hemodialysis Vascular Access Claims Breakdown: Analysis of claims based on types of vascular access for hemodialysis (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft and Central Venous Catheter (CVC)) 
-- Provider Type Analysis 
+- Provider Type Analysis: 
 
 Example:
 > This project focuses on analyzing customer and sales data for **Elist Electronics**, a global e-commerce company established in 2018. The main goal is to evaluate product performance, customer loyalty, and provide recommendations for improving commercial success.
@@ -172,6 +172,16 @@ While revenue and order volume declined in 2022, the **Average Order Value** sho
 Dive into the key findings from the analysis and explain the underlying data insights.
 
 ### Example Insights:
+Overall Trend analysis
+![image](https://github.com/user-attachments/assets/c8330668-0f35-4ab1-99f1-3cc73012e63b)
+![image](https://github.com/user-attachments/assets/e6af07db-30da-4b72-95e8-bf8759fcceed)
+
+
+
+Regional analsis
+![image](https://github.com/user-attachments/assets/fe79df85-862a-44a4-a5a8-19b5c8d97f38)
+![image](https://github.com/user-attachments/assets/2181dd81-ab03-42b5-8399-79394dc55e35)
+
 
 - **Key Insight 1: Decline in Revenue**
     - The company’s revenue dropped by **45.7%** year-over-year in 2022.
