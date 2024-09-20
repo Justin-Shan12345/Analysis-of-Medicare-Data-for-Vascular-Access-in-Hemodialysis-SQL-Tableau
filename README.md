@@ -48,27 +48,39 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 ### Overall Hemodialysis Market Analysis:
 > In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M (a single patient can be accounted multiple times, this merely reflects the number of patient engagement). This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. 
 
-> Despite the downward trend, the percentage of Medicare coverage has remained steady from 2017 to 2022, with an average of 28.26% coverage throughout the 6-year period. 
+> Despite the downward trend, the percentage of Medicare coverage has remained steady from 2017 to 2022, with an average of 28.26% coverage throughout the 6-year period.
+> ![image](https://github.com/user-attachments/assets/27b46e19-6971-457a-9754-bb921d35e7b4)
+
 
 ### Regional Claim Comparison
 > The analysis focuses on the contiguous United States (excluding Hawaii and Alaska) and separates the country into 3 regions (West, Central, and East) to identify regional differences.
 
-> In 2022, all three regions experienced the most significant decline in total Medicare payment growth (Year-Over-Year: West -11.34%, Central -19.25%, East -17.73%). Before 2020, all regions showed marginal but positive growth, highlighting the impact of COVID-19 on the accessibility of care for hemodialysis patients. The decline in growth can also be attributed to factors such as improvement in kidney transplants, at-home dialysis and preventative care.
+> In 2022, all three regions saw the largest decline in total Medicare payment growth (Year-over-Year: West -11.34%, Central -19.25%, East -17.73%). Prior to 2020, each region experienced marginal but positive growth, underscoring the impact of COVID-19 on hemodialysis care accessibility. This decline can also be linked to improvements in kidney transplants, increased use of at-home dialysis, and advancements in preventative care.
 
-> Amongst the three regions investigated, West has been shown to be the least impacted by the decline, going from $194.75M in 2017 to $168.31M in 2022 while the other two regions saw much significant decline in Medicare payment ($250.83M to $176.19M in the Central region, $780.46M to $554.90M in the East Region). 
-
-> ![image](https://github.com/user-attachments/assets/5a53d637-46c7-4326-9a8f-ea5dff1c13d2)
 > ![image](https://github.com/user-attachments/assets/5b0f3bc7-3686-41ef-a39a-adbeecbc1faf)
+
+> Among the three regions examined, the West was the least impacted by the decline, with Medicare payments decreasing from $194.75M in 2017 to $168.31M in 2022. In contrast, the Central region saw a much steeper decline, from $250.83M to $176.19M, and the East region experienced the largest drop, going from $780.46M to $554.90M during the same period.
+
+
 > ![image](https://github.com/user-attachments/assets/dec0fff3-d5df-48ab-948a-b0353158eb40)
 
 ### Hemodialysis Vascular Access Claims Breakdown
-> The HCPCS codes have been grouped by the type of service provided. For a detailed breakdown of the HCPCS code categorization, please refer to the Data Structure Overview section. The following categories were used for this analysis: AV Revision, AVF Creation, AVG Creation, CVC Insertion, CVC Others, CVC Removal, CVC Repair or Replacement, Dialysis Circuit Assessment, ESRD Services, and Hemodialysis Cannulation. Please note that CVC-related categories are not specific to hemodialysis, and it is not possible to separate out the associated claims, so the values presented may not fully represent the hemodialysis services.
+> The HCPCS codes have been organized by the type of service provided. For a detailed breakdown of the HCPCS code categorization, please refer to the Data Structure Overview section. The following categories were used in this analysis: AV Revision, AVF Creation, AVG Creation, CVC Insertion, CVC Others, CVC Removal, CVC Repair or Replacement, Dialysis Circuit Assessment, ESRD Services, and Hemodialysis Cannulation. It’s important to note that CVC-related categories are not specific to hemodialysis, and it is not possible to isolate the associated claims entirely. Therefore, the values presented may not fully reflect services related specifically to hemodialysis.
 
-> In terms of year-over-year Medicare payment growth, all HCPCS categories show similar patterns, with slight fluctuations between 2017 and 2020, followed by a sharp decline from 2020 onward. Claims related to AVF/AVG creation and revision costs have significantly decreased in recent years. While various factors could contribute to this trend (such as improved AVF/AVG durability or increased adoption of peritoneal dialysis), the steep decline is likely primarily due to the impact of COVID-19. Additional data is needed to determine whether this trend will continue or if claims will return to pre-COVID levels.
+> Year-over-year Medicare payment growth across all HCPCS categories followed a similar pattern, with minor fluctuations between 2017 and 2020, and a sharp decline from 2020 onward. Claims related to AVF/AVG creation and revision have notably decreased in recent years. Although various factors, such as improved AVF/AVG durability and increased adoption of peritoneal dialysis, may have influenced this trend, the sharp decline is most likely driven by the impact of COVID-19. Further data is required to assess whether this trend will persist or if claims will rebound to pre-COVID levels.
+> ![image](https://github.com/user-attachments/assets/ac5dcad9-322c-4f1f-a51c-643cbf631314)
 
-> Average percentage of Medicare Coverage remained 
-![image](https://github.com/user-attachments/assets/ac5dcad9-322c-4f1f-a51c-643cbf631314)
-![image](https://github.com/user-attachments/assets/0ff5b8c8-fc5b-419a-a81b-660fac465865)
+> The average percentage of Medicare coverage remained relatively stable, with no significant fluctuations. ESRD services, which encompass dialysis management for ESRD patients, accounted for the highest coverage at 38.30%, significantly exceeding that of other categories.
+
+> In contrast, services related to CVCs (insertion, removal, repair, replacement, or other procedures) had the lowest coverage among the various types of vascular access. This is consistent with clinical practice guidelines, as CVCs are typically the third option for long-term hemodialysis, following AVF and AVG.
+> ![image](https://github.com/user-attachments/assets/0ff5b8c8-fc5b-419a-a81b-660fac465865)
+
+> In terms of total Medicare payments, claims for AV revision procedures (which address complications like stenosis or thrombosis in AVF or AVG to restore hemodialysis access) account for an average of 61.36% of total claims. This is significantly higher than the second-largest category, CVC insertion, which represents 27.67% and is not exclusively used for hemodialysis.
+> This highlights an unmet clinical need, as AVFs and AVGs, though the preferred options for establishing vascular access, frequently encounter complications requiring corrective procedures. This places a considerable burden on patients, who must endure repeated interventions and potential complications, while also straining Medicare, as a significant portion of funds are allocated to these revision procedures.
+
+> ![image](https://github.com/user-attachments/assets/d286fc9f-c852-405f-9fa3-5b7341f0470c)
+
+
 
 
 CVC is not exclsuive for hemodialysis 
