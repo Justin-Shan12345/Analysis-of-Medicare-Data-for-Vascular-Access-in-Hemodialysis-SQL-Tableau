@@ -30,7 +30,7 @@ You can find the Tableau Dashboard [here](https://public.tableau.com/app/profile
 ### Overview of Findings 
 Following marginal growth between 2017 and 2019, peaking in 2019 at $1.24 billion, total Medicare payments for hemodialysis vascular access-related claims have steadily declined, with negative year-over-year growth from 2020 to 2022. While this drop can largely be attributed to the impact of COVID-19, other contributing factors include higher kidney transplant rates, the growing adoption of at-home dialysis (by the end of 2020, 13.7% of all dialysis patients performed dialysis at home, marking a 50% increase between 2010 and 2020), and improvements in preventative care.
 
-Medicare covers healthcare for 80% of patients in the U.S. with end-stage kidney disease (ESKD) (source), meaning this report reflects a significant portion of the costs associated with vascular access for hemodialysis in the U.S.
+Medicare covers healthcare for 80% of patients in the U.S. with end-stage kidney disease, meaning this report reflects a significant portion of the costs associated with vascular access for hemodialysis in the U.S.
 
 Below is the overview page from the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard can be accessed here.
 
