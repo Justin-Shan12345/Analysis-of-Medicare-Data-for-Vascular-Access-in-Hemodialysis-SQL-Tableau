@@ -77,7 +77,7 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 > ![image](https://github.com/user-attachments/assets/0ff5b8c8-fc5b-419a-a81b-660fac465865)
 
-> In terms of total Medicare payments, claims for AV revision procedures (which address complications like stenosis or thrombosis in AVF or AVG to restore hemodialysis access) account for an average of 61.36% of total claims. This is significantly higher than the second-largest category, CVC insertion, which represents 27.67% and is not exclusively used for hemodialysis.
+> Among the three main types of vascular access, claims for AV revision procedures (which address complications such as stenosis or thrombosis in AVF or AVG to restore hemodialysis access) represent an average of 61.36% of the total procedures. ESRD services have been excluded from this analysis as they do not directly relate to vascular access types. This is significantly higher than the second-largest category, CVC insertion, which represents 27.67% and is not exclusively used for hemodialysis.
 
 > This highlights an unmet clinical need, as AVFs and AVGs, though the preferred options for establishing vascular access, frequently encounter complications requiring corrective procedures. This places a considerable burden on patients, who must endure repeated interventions and potential complications, while also straining Medicare, as a significant portion of funds are allocated to these revision procedures.
 
@@ -97,8 +97,9 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 # Recommendations
 Based on the uncovered insights, the following recommendations have been provided: 
-- Given the rapid growth of Ambulatory Surgical Centers' claims in AV revisions, this provider type presents a valuable opportunity for commercial engagement. ASCs could serve as a key customer segment for promoting and advocating for vascular access methods that are more durable and have fewer complications.
-- Given the regional disparity, it is worthwhile to further investigate the causes behind the large reduction in claims in the East. Factors such as regional healthcare policies, demographic shifts, or other regulatory changes could be contributing to this trend. Understanding the root causes can provide strategic insights into regional healthcare dynamics, helping assess commercial launch favorability and tailor strategies to each region's specific characteristics.
+- With the rapid growth of Ambulatory Surgical Centers' claims in AV revisions, this provider type presents a valuable opportunity for commercial engagement. ASCs could serve as a key customer segment for promoting and advocating for vascular access methods that are more durable and have fewer complications.
+- Given the regional disparity, it is worthwhile to investigate further the causes behind the large reduction in claims in the East. Factors such as regional healthcare policies, demographic shifts, or other regulatory changes could be contributing to this trend. Understanding the root causes can provide strategic insights into regional healthcare dynamics, helping assess commercial launch favorability and tailor strategies to each region's specific characteristics.
+- When negotiating reimbursement rates, emphasizing the significant cost and high percentage of payments related to AV revision procedures could be advantageous. Since AV revisions account for a large portion of overall claims, payers may recognize the financial burden these procedures place on the healthcare system. By underscoring the frequency and cost of addressing complications like stenosis and thrombosis in AVF or AVG, it can strengthen the case for better reimbursement rates.
 
 
 ---
