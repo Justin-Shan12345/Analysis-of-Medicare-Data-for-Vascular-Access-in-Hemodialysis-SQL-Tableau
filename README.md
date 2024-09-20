@@ -59,9 +59,11 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 > In 2022, all three regions saw the largest decline in total Medicare payment growth (Year-over-Year: West -11.34%, Central -19.25%, East -17.73%). Prior to 2020, each region experienced marginal but positive growth, underscoring the impact of COVID-19 on hemodialysis care accessibility. This decline can also be linked to improvements in kidney transplants, increased use of at-home dialysis, and advancements in preventative care.
 
+> Among the three regions examined, the West was the least impacted by the decline, with Medicare payments decreasing from $194.75M in 2017 to $168.31M in 2022. In contrast, the Central region saw a much steeper decline, from $250.83M to $176.19M, and the East region experienced the largest drop, going from $780.46M to $554.90M during the same period.
+
 > ![image](https://github.com/user-attachments/assets/5b0f3bc7-3686-41ef-a39a-adbeecbc1faf)
 
-> Among the three regions examined, the West was the least impacted by the decline, with Medicare payments decreasing from $194.75M in 2017 to $168.31M in 2022. In contrast, the Central region saw a much steeper decline, from $250.83M to $176.19M, and the East region experienced the largest drop, going from $780.46M to $554.90M during the same period.
+> In terms of percentage coverage, the West consistently had the highest coverage compared to the other two regions, though the difference was only 1-2 percentage points each year. 
 
 > ![image](https://github.com/user-attachments/assets/dec0fff3-d5df-48ab-948a-b0353158eb40)
 
