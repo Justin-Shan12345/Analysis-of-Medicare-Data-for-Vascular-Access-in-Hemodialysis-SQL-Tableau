@@ -20,7 +20,7 @@ Insights and recommendations are provided in the following key areas:
 - Provider Type Analysis: An evaluation of claims by provider types (e.g., nephrologists, nurse practitioners), addressing questions such as which providers are delivering these services, the market size of each specialty, and identifying potential opportunities for commercial initiatives.
 
 
-You can find the source to the datesets here.
+You can find the source of the datasets here.
 
 You can find the Tableau Dashboard here.
 
@@ -46,9 +46,10 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 # Insights Deep Dive
 
 ### Overall Hemodialysis Market Analysis:
-> In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M (a single patient can be accounted multiple times, this merely reflects the number of patient engagement). This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. 
+> In 2022, Medicare care payment for claims related to hemodialysis vascular access amounted to $898.4M, with the total number of patients serviced being 3.9M (a single patient can be accounted for multiple times, this merely reflects the number of patient engagement). This is a drastic decrease from the year prior ($1.1B, YOY -16.92%) and highlights a downward trend that began in 2020. 
 
 > Despite the downward trend, the percentage of Medicare coverage has remained steady from 2017 to 2022, with an average of 28.26% coverage throughout the 6-year period.
+
 > ![image](https://github.com/user-attachments/assets/27b46e19-6971-457a-9754-bb921d35e7b4)
 
 
@@ -68,36 +69,32 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 > The HCPCS codes have been organized by the type of service provided. For a detailed breakdown of the HCPCS code categorization, please refer to the Data Structure Overview section. The following categories were used in this analysis: AV Revision, AVF Creation, AVG Creation, CVC Insertion, CVC Others, CVC Removal, CVC Repair or Replacement, Dialysis Circuit Assessment, ESRD Services, and Hemodialysis Cannulation. It’s important to note that CVC-related categories are not specific to hemodialysis, and it is not possible to isolate the associated claims entirely. Therefore, the values presented may not fully reflect services related specifically to hemodialysis.
 
 > Year-over-year Medicare payment growth across all HCPCS categories followed a similar pattern, with minor fluctuations between 2017 and 2020, and a sharp decline from 2020 onward. Claims related to AVF/AVG creation and revision have notably decreased in recent years. Although various factors, such as improved AVF/AVG durability and increased adoption of peritoneal dialysis, may have influenced this trend, the sharp decline is most likely driven by the impact of COVID-19. Further data is required to assess whether this trend will persist or if claims will rebound to pre-COVID levels.
+
 > ![image](https://github.com/user-attachments/assets/ac5dcad9-322c-4f1f-a51c-643cbf631314)
 
 > The average percentage of Medicare coverage remained relatively stable, with no significant fluctuations. ESRD services, which encompass dialysis management for ESRD patients, accounted for the highest coverage at 38.30%, significantly exceeding that of other categories.
 
 > In contrast, services related to CVCs (insertion, removal, repair, replacement, or other procedures) had the lowest coverage among the various types of vascular access. This is consistent with clinical practice guidelines, as CVCs are typically the third option for long-term hemodialysis, following AVF and AVG.
+
 > ![image](https://github.com/user-attachments/assets/0ff5b8c8-fc5b-419a-a81b-660fac465865)
 
 > In terms of total Medicare payments, claims for AV revision procedures (which address complications like stenosis or thrombosis in AVF or AVG to restore hemodialysis access) account for an average of 61.36% of total claims. This is significantly higher than the second-largest category, CVC insertion, which represents 27.67% and is not exclusively used for hemodialysis.
+
 > This highlights an unmet clinical need, as AVFs and AVGs, though the preferred options for establishing vascular access, frequently encounter complications requiring corrective procedures. This places a considerable burden on patients, who must endure repeated interventions and potential complications, while also straining Medicare, as a significant portion of funds are allocated to these revision procedures.
 
 > ![image](https://github.com/user-attachments/assets/d286fc9f-c852-405f-9fa3-5b7341f0470c)
 
-
-
-
-CVC is not exclsuive for hemodialysis 
 ### Provider Type Analysis
+> A close examination of the provider type breakdown shows that Nephrology remains the largest spender, representing approximately 64% ($581M) of total Medicare payments annually, despite the overall decline in the segment. Meanwhile, Ambulatory Surgical Centers saw significant growth, increasing from just 2.75% ($33.4M) of total payments to 11.81% ($106.1M) in 2022, making it the second-largest provider type.
 
+> Other provider types have maintained a consistent share over the 6-year period, with no significant fluctuations or major shifts observed in their portion of the total Medicare payment.  
 
+> ![image](https://github.com/user-attachments/assets/edc748ea-4104-46f4-afaa-e71aa9395bef)
 
+> A deeper analysis of the service type categories revealed the reason behind the significant rise in Ambulatory Surgical Centers. Initially accounting for just 8.30% ($25.9M) of AV revision-related services, these centers have steadily increased their share in this category, reaching a peak of 43.99% ($89.7M) in 2022. In contrast, Nephrology's share has gradually declined, dropping from 36.42% ($113.8M) to just 21.12% ($43.1M) in 2022.
 
-- **Key Insight 1: Decline in Revenue**
-    - The company’s revenue dropped by **45.7%** year-over-year in 2022.
-    - Possible reason: Decrease in customer loyalty and order volume by **39.9%**.
-    
-- **Key Insight 2: High-Cost Products Resilience**
-    - Despite the overall revenue drop, high-cost laptop orders saw a **10%** year-over-year increase in September 2022.
-    - The increased sales of premium laptops compensated for losses in other product categories.
-![image](https://github.com/user-attachments/assets/e7e5eb21-9c41-4fc5-9dd6-04f025239d3b)
-![image](https://github.com/user-attachments/assets/f065488f-27be-4578-8e7e-2d1424496f96)
+> ![image](https://github.com/user-attachments/assets/1d4b1a0b-6416-4f20-995d-3733d5d97407)
+
 
 ---
 
