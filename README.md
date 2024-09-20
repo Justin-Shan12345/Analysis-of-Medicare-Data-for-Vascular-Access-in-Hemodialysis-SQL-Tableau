@@ -62,6 +62,14 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 > ![image](https://github.com/user-attachments/assets/dec0fff3-d5df-48ab-948a-b0353158eb40)
 
 ### Hemodialysis Vascular Access Claims Breakdown
+> The HCPCS codes have been grouped by the type of service provided. For a detailed breakdown of the HCPCS code categorization, please refer to the Data Structure Overview section. The following categories were used for this analysis: AV Revision, AVF Creation, AVG Creation, CVC Insertion, CVC Others, CVC Removal, CVC Repair or Replacement, Dialysis Circuit Assessment, ESRD Services, and Hemodialysis Cannulation. Please note that CVC-related categories are not specific to hemodialysis, and it is not possible to separate out the associated claims, so the values presented may not fully represent the hemodialysis services.
+
+> In terms of year-over-year Medicare payment growth, all HCPCS categories show similar patterns, with slight fluctuations between 2017 and 2020, followed by a sharp decline from 2020 onward. Claims related to AVF/AVG creation and revision costs have significantly decreased in recent years. While various factors could contribute to this trend (such as improved AVF/AVG durability or increased adoption of peritoneal dialysis), the steep decline is likely primarily due to the impact of COVID-19. Additional data is needed to determine whether this trend will continue or if claims will return to pre-COVID levels.
+
+> Average percentage of Medicare Coverage remained 
+![image](https://github.com/user-attachments/assets/ac5dcad9-322c-4f1f-a51c-643cbf631314)
+![image](https://github.com/user-attachments/assets/0ff5b8c8-fc5b-419a-a81b-660fac465865)
+
 
 CVC is not exclsuive for hemodialysis 
 ### Provider Type Analysis
