@@ -16,7 +16,7 @@ Insights and recommendations are provided in the following key areas:
 
 - Overall Hemodialysis Market Analysis: A comprehensive review of hemodialysis claim trends, including total claims, the number of patients served, and market shifts over time, with a focus on key metrics like claim volume and coverage percentage.
 - Regional Claim Comparison: A comparative analysis of hemodialysis claims across regions, highlighting geographic differences in year-over-year (YOY) total claim growth, changes in coverage percentage, and patterns of service usage.
-- Hemodialysis Vascular Access Claims Breakdown: An analysis of claims based on the three primary types of vascular access for hemodialysis currently in practice (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft, and Central Venous Catheter (CVC)).
+- Service Type Category Breakdown: An analysis of claims based on the three primary types of vascular access for hemodialysis currently in practice (Arteriovenous (AV) Fistula, Arteriovenous (AV) Graft, and Central Venous Catheter (CVC)).
 - Provider Type Analysis: An evaluation of claims by provider types (e.g., nephrologists, nurse practitioners), addressing questions such as which providers are delivering these services, the market size of each specialty, and identifying potential opportunities for commercial initiatives.
 
 
@@ -62,10 +62,9 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 
 > Among the three regions examined, the West was the least impacted by the decline, with Medicare payments decreasing from $194.75M in 2017 to $168.31M in 2022. In contrast, the Central region saw a much steeper decline, from $250.83M to $176.19M, and the East region experienced the largest drop, going from $780.46M to $554.90M during the same period.
 
-
 > ![image](https://github.com/user-attachments/assets/dec0fff3-d5df-48ab-948a-b0353158eb40)
 
-### Hemodialysis Vascular Access Claims Breakdown
+### Service Type Category Breakdown
 > The HCPCS codes have been organized by the type of service provided. For a detailed breakdown of the HCPCS code categorization, please refer to the Data Structure Overview section. The following categories were used in this analysis: AV Revision, AVF Creation, AVG Creation, CVC Insertion, CVC Others, CVC Removal, CVC Repair or Replacement, Dialysis Circuit Assessment, ESRD Services, and Hemodialysis Cannulation. It’s important to note that CVC-related categories are not specific to hemodialysis, and it is not possible to isolate the associated claims entirely. Therefore, the values presented may not fully reflect services related specifically to hemodialysis.
 
 > Year-over-year Medicare payment growth across all HCPCS categories followed a similar pattern, with minor fluctuations between 2017 and 2020, and a sharp decline from 2020 onward. Claims related to AVF/AVG creation and revision have notably decreased in recent years. Although various factors, such as improved AVF/AVG durability and increased adoption of peritoneal dialysis, may have influenced this trend, the sharp decline is most likely driven by the impact of COVID-19. Further data is required to assess whether this trend will persist or if claims will rebound to pre-COVID levels.
@@ -94,27 +93,14 @@ Top line Metrics for Hemodialysis Vascular Access Related Claims:
 > A deeper analysis of the service type categories revealed the reason behind the significant rise in Ambulatory Surgical Centers. Initially accounting for just 8.30% ($25.9M) of AV revision-related services, these centers have steadily increased their share in this category, reaching a peak of 43.99% ($89.7M) in 2022. In contrast, Nephrology's share has gradually declined, dropping from 36.42% ($113.8M) to just 21.12% ($43.1M) in 2022.
 
 > ![image](https://github.com/user-attachments/assets/1d4b1a0b-6416-4f20-995d-3733d5d97407)
-
-
 ---
 
 # Recommendations
-Based on the insights, provide actionable recommendations for the business or client.
+Based on the uncovered insights, the following recommendations have been provided: 
+- Given the rapid growth of Ambulatory Surgical Centers' claims in AV revisions, this provider type presents a valuable opportunity for commercial engagement. ASCs could serve as a key customer segment for promoting and advocating for vascular access methods that are more durable and have fewer complications.
+- Given the regional disparity, it is worthwhile to further investigate the causes behind the large reduction in claims in the East. Factors such as regional healthcare policies, demographic shifts, or other regulatory changes could be contributing to this trend. Understanding the root causes can provide strategic insights into regional healthcare dynamics, helping assess commercial launch favorability and tailor strategies to each region's specific characteristics.
 
-### Example Recommendations:
 
-1. **Diversify the Product Portfolio**: 
-   - With 85% of orders and 70% of revenue coming from just three products, diversifying the product portfolio is critical.
-   - **Action**: Introduce new product lines, particularly in the higher-cost segments like premium laptops and accessories.
-
-2. **Target Loyalty Program Members for Upsell**: 
-   - Focus marketing efforts on converting non-members into loyalty members and upsell current loyalty members with personalized offers.
-   - **Action**: Utilize personalized email campaigns and promotions based on loyalty program data.
-
-3. **Re-evaluate Marketing for Underperforming Products**:
-   - Products like the Bose SoundSport Headphones account for less than 1% of annual revenue and may not be worth continued focus.
-   - **Action**: Consider discontinuing or repackaging underperforming products while focusing more on top-performing items.
-![image](https://github.com/user-attachments/assets/334c4f84-2e15-420f-b7de-5d1726226e79)
 ---
 
 # Data Structure Overview
