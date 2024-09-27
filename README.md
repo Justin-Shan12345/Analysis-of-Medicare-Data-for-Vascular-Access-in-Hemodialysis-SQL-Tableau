@@ -36,7 +36,7 @@ Below is the overview page from the Tableau dashboard, with additional examples 
 
 ![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
 
-Top line Metrics for Hemodialysis Vascular Access Related Claims:
+Top Line Metrics for Hemodialysis Vascular Access Related Claims:
 - **2022 Total Submitted Claim**: $3.1B (YoY -12.70%)
 - **2022 Total Medicare Payment**: $898.4M (YoY -16.92%)
 - **2022 Total Patient Serviced**: 3.905M
