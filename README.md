@@ -32,7 +32,7 @@ Following marginal growth between 2017 and 2019, peaking in 2019 at $1.24 billio
 
 Medicare covers healthcare for 80% of patients in the U.S. with end-stage kidney disease, meaning this report reflects a significant portion of the costs associated with vascular access for hemodialysis in the U.S.
 
-Below is the overview page from the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard can be accessed here.
+Below is the overview page from the Tableau dashboard, with additional examples included throughout the report. The full interactive dashboard can be accessed [here](https://public.tableau.com/app/profile/chung.hsi.shan/viz/AnalysisofMedicareDataforVascularAccessinHemodialysis/Dashboard1).
 
 ![Dashboard 1 (3)](https://github.com/user-attachments/assets/4b67209c-f1e6-4701-b316-5852da9f4e70)
 
